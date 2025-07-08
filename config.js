@@ -1,3 +1,4 @@
+require('dotenv').config();
 module.exports = {
   BUCKET_NAME: process.env.BUCKET_NAME,
   REGION: process.env.REGION,
